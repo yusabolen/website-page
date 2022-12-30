@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(46, 41, 47) ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1.2rem;
+    border-bottom: 5px solid rgb(116, 14, 106) ;
+}
+span{
+    color: rgb(116, 14, 106);
+}
+header .right{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row;
+    gap: 2rem 1rem; */
+}
+header .right a{
+    text-decoration: none;
+    color: white;
+  
+
+} 
+main{
+    /* justify-content: center; */
+    text-align: center;
+
+}
+main .main_back{
+    background-image: url("./img/showcase.jpg");
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+   
+    
+}
+main .main_back h1{
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+.main_input{
+    background-color:rgb(46, 41, 47) ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:2rem 1.2rem ;
+    border-bottom: 5px solid rgb(116, 14, 106) ;
+
+}
+main section article nav input{
+    height: 2rem;
+    width: 280px;
+}
+main section article nav button{
+    background-color: rgb(205, 46, 14);
+    width:100px;
+    height: 2rem;
+    border: none;
+    color: white;
+}
+main section article nav button:hover{
+    cursor: pointer;
+    color: black;
+}
+.main_bottom{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+
+
+
+main section article img{
+    width: 15%;
+}
+
+footer{
+    background-color:rgb(46, 41, 47) ;
+    text-align: center;
+    padding: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer img{
+    width: 10%;
+
+}
+
+
+
